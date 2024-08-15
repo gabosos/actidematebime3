@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="matecss.css"/>
+</head>
+<body>
+    <div class="rectangulo"></div>
+    <h2 class="titulo">Actividad libre de Matematicas bime 3 8º </h2>
+    <h2 class="v2">Que son produtos notables  </h2>
+
+<form class="ojala" id="no">
+    <input type="radio" id="opcion1" name="producto_notable" value="opcion1">
+    <label for="opcion1" class="letra" >A.  son técnicas algebraicas que permiten simplificar y operar binomios y polinomios.</label><br>
+    
+    <input type="radio" id="opcion2" name="producto_notable" value="opcion2">
+    <label for="opcion2" class="letra" >B. Es un tipo de producto químico.</label><br>
+    
+    <input type="radio" id="opcion3" name="producto_notable" value="opcion3">
+    <label for="opcion3" class="letra" >C. Es una fórmula utilizada en geometría que calcula rectangulos .</label><br><br>
+    
+    <input type="submit" value="Enviar" id="summit" >
+</form>
+<script>
+  document.getElementById('no').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            
+            
+            const seleccion = document.querySelector('input[name="producto_notable"]:checked');
+            
+            if (!seleccion) {
+                alert('Por favor, selecciona una opción.');
+                return;
+            }
+            
+           
+            const valor = seleccion.value;
+            if (valor === 'opcion1') {
+                alert('¡Correcto! ');
+            } else {
+                alert('Incorrecto. ');
+            }
+        });
+
+</script>
+<h3 class="v3">Por: Gabriel Esteban Acosta Ospina </h2>
+    <h3 class="v4">Ejemplos </h2>  
+        <img src="vf1.png" class="vf1">  
+       
+        <div>
+            <img src="vf2.png" class="vf2"> 
+        </div>
+
+        <div>
+            <img src="vf3.png" class="vf3">
+        </div>
+        <div>
+            <h3 class="v5">Profe dure aproximadamente 6 horas espero que lo disfrute </h2>  
+        </div>
+</body>
+</html>                        

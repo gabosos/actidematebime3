@@ -1,0 +1,80 @@
+.titulo{
+    color: #ff0000;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+.v2{
+    color: #000000; 
+    text-align: center;  
+}
+
+.ojala {
+    text-align: center;    
+}
+
+
+body {
+    background-color: blanchedalmond;
+}
+
+.letra{
+    font-family: sans-serif;
+}
+
+ 
+.rectangulo {
+    width: 620px;
+    height: 600px;
+    background-color: #f05806;
+    border-radius: 15px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: -1;
+}
+
+.v3 {
+    position: absolute;
+    top: 90%;
+    font-family: sans-serif;
+}
+
+.v4 {
+    text-align: center;  
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+}
+
+.vf1{
+    width: 200px;
+    top: 240px;
+    position: relative;
+    right: -780px;
+}
+
+.vf2 {
+    width: 200px;
+    top: -40px;
+    position: relative;
+    right: -780px;  
+} 
+
+.vf3 {
+    width: 300px;
+    top: -167px;
+    position: relative;
+    right: -450px;  
+}
+
+.v5{
+    text-align: center;  
+    position: relative;
+    top: -170px;
+    font-family: sans-serif; 
+}
